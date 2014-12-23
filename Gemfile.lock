@@ -1,0 +1,45 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.0)
+    equatable (0.5.0)
+    gmail (0.4.2)
+      gmail_xoauth (>= 0.3.0)
+      mail (>= 2.2.1)
+      mime (>= 0.1)
+    gmail_xoauth (0.4.1)
+      oauth (>= 0.3.6)
+    liquid (3.0.0)
+    mail (2.6.3)
+      mime-types (>= 1.16, < 3)
+    method_source (0.8.2)
+    mime (0.4.2)
+    mime-types (2.4.3)
+    necromancer (0.3.0)
+    oauth (0.4.7)
+    pastel (0.4.0)
+      equatable (~> 0.5)
+    pry (0.10.0)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    slop (3.6.0)
+    tty (0.1.2)
+      equatable (~> 0.5.0)
+      necromancer (~> 0.3.0)
+      pastel (~> 0.4.0)
+      tty-progressbar (~> 0.2.0)
+      tty-screen (~> 0.1.0)
+      tty-spinner (~> 0.1.0)
+    tty-progressbar (0.2.0)
+    tty-screen (0.1.0)
+    tty-spinner (0.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gmail
+  liquid
+  pry
+  tty
